@@ -1,0 +1,12 @@
+{
+  "name": "md-sc-examples",
+  "private": true,
+  "description": "Examples & website for the md-sc markdown editor engine. Depends on the md-sc monorepo (../../md-sc/) via file: protocol for @md-sc/* packages.",
+  "scripts": {
+    "dev:web": "pnpm --filter md-sc-web-demo dev",
+    "dev:vue": "pnpm --filter md-sc-vue-demo dev",
+    "dev:website": "pnpm --filter md-sc-website dev",
+    "build": "pnpm -r build"
+  },
+  "packageManager": "pnpm@9.15.0"
+}
