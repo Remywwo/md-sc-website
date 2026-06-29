@@ -1,12 +1,23 @@
 {
-  "name": "md-sc-examples",
+  "name": "md-sc-website",
   "private": true,
-  "description": "Examples & website for the md-sc markdown editor engine. Depends on the md-sc monorepo (../../md-sc/) via file: protocol for @md-sc/* packages.",
+  "version": "0.1.0",
+  "type": "module",
   "scripts": {
-    "dev:web": "pnpm --filter md-sc-web-demo dev",
-    "dev:vue": "pnpm --filter md-sc-vue-demo dev",
-    "dev:website": "pnpm --filter md-sc-website dev",
-    "build": "pnpm -r build"
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview"
   },
-  "packageManager": "pnpm@9.15.0"
+  "dependencies": {
+    "@md-sc/react": "^0.2.1-beta.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.7.3",
+    "vite": "^6.0.7"
+  }
 }

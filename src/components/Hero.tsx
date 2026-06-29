@@ -39,7 +39,7 @@ export function Hero() {
             Try the demo
           </a>
           <a
-            href="https://github.com/Remywwo/md-sc-examples"
+            href="https://github.com/Remywwo/md-sc-website"
             className="btn btn-ghost"
             target="_blank"
             rel="noopener noreferrer"

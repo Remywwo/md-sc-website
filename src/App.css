@@ -95,10 +95,15 @@ a:hover {
   color: var(--c-fg);
   text-decoration: none;
 }
-.nav-theme-btn {
-  font-size: 15px;
-  padding: 5px 12px;
+.btn.nav-theme-btn {
+  font-size: 14px;
+  padding: 3px 8px;
   line-height: 1;
+  border: none;
+  background: transparent;
+}
+.btn.nav-theme-btn:hover {
+  background: var(--c-accent-soft);
 }
 
 /* === Scroll-snap === */
@@ -378,10 +383,15 @@ a:hover {
   color: #fff;
   border-color: var(--c-accent);
 }
-.demo-theme-btn {
+.btn.demo-theme-btn {
   font-size: 13px;
-  padding: 6px 12px;
+  padding: 4px 8px;
   margin-left: 4px;
+  border: none;
+  background: transparent;
+}
+.btn.demo-theme-btn:hover {
+  background: var(--c-accent-soft);
 }
 .demo-badge {
   font-size: 13px;

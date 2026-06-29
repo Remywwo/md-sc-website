@@ -7,7 +7,7 @@ export function Footer() {
           <span className="footer-tagline">Markdown WYSIWYG Editor SDK</span>
         </div>
         <div className="footer-links">
-          <a href="https://github.com/Remywwo/md-sc-examples" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://github.com/Remywwo/md-sc-website" target="_blank" rel="noopener noreferrer">GitHub</a>
           <span>MIT OR Apache-2.0</span>
         </div>
       </div>
