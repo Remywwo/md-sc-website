@@ -28,7 +28,7 @@ export function Nav() {
       <div className="nav-actions">
         <a
           className="nav-link"
-          href="https://github.com/Remywwo/md-sc"
+          href="https://github.com/Remywwo/md-sc-examples"
           target="_blank"
           rel="noopener noreferrer"
         >

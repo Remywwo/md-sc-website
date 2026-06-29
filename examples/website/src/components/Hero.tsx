@@ -1,9 +1,9 @@
 import { useTilt } from '../hooks/useTilt';
 
 const BLURBS = [
-  { value: '81 KB', label: 'WASM gzipped' },
+  { value: '< 80 KB', label: 'Gzipped size' },
   { value: 'React + Vue', label: 'First-class adapters' },
-  { value: 'Rust', label: 'Compiled to WebAssembly' },
+  { value: 'TypeScript', label: 'Fully typed SDK' },
   { value: 'MIT', label: 'Open source' },
 ];
 
@@ -31,15 +31,15 @@ export function Hero() {
           md<span className="hero-title-accent">-sc</span>
         </h1>
         <p className="hero-desc">
-          A Markdown WYSIWYG editor engine written in Rust, compiled to
-          WebAssembly, with first-class React and Vue 3 adapters.
+          A Markdown WYSIWYG editor shipped as a TypeScript SDK.
+          First-class React and Vue 3 adapters — drop in, start editing.
         </p>
         <div className="hero-actions">
           <a href="#demo-react" className="btn btn-primary">
             Try the demo
           </a>
           <a
-            href="https://github.com/Remywwo/md-sc"
+            href="https://github.com/Remywwo/md-sc-examples"
             className="btn btn-ghost"
             target="_blank"
             rel="noopener noreferrer"
